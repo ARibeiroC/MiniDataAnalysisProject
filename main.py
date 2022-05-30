@@ -64,33 +64,24 @@ nFuncDf = funcDf[['ID Funcionário', 'Area']]
 contArea = contArea.merge(nFuncDf, on='ID Funcionário')
 
 # Realizando o calculo de contratos por Área
-areaCount = dict(contArea['Area'].value_counts())
+areaCount = contArea['Area'].value_counts()
 
 # Exibindo os dados da Analise (Valor e Gráfico)
 titulo = '< TOTAL DE CONTRATOS REALIZADOS POR SETOR >'
 print('{:═^70}\n{}\n'.format(titulo,areaCount))
-setor = areaCount.keys()
-value = areaCount.values()
-plt.bar(setor, value)
-plt.show()
+
 # 5 - Quantidade de Funcionários por Setor
 
 # Criando um novo DATAFRAME
 qntdFunc = funcDf
 
 # Calculando a quantidade de funcionário por Área
-qntdFunc = dict(qntdFunc['Area'].value_counts())
-
-# TRANSFORMANDO O RESULTADO EM DICIONÁRIO E CONVERTENDO EM LISTA
-func = qntdFunc.keys()
-value = qntdFunc.values()
+qntdFunc = qntdFunc['Area'].value_counts()
 
 # Exibindo os dados Analisados (Tabela e Gráfico)
 titulo = '< QUANTIDADE DE FUNCIONÁRIOS POR SETOR >'
 
 print('{:═^70}\n{}\n'.format(titulo, qntdFunc))
-plt.bar(func, value)
-plt.show()
 
 # 6 Qual o ticket médio da empresa mensal ?
 
