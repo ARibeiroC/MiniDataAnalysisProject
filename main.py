@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-
 # IMPORTANDO DATAFRAME
 
 servDf = pd.read_csv(r'Arquivos\BaseServiçosPrestados.csv', encoding='latin1')
