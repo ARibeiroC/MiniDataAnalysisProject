@@ -29,7 +29,7 @@ Neste projeto utilizamos um banco de dados de uma empresa ficticia para poder ex
 
 ### 4. Total de Contratos realizados por Setor?
 <div>
-  <img src="https://cdn.discordapp.com/attachments/1037246336669601812/1302994177344405545/image.png?ex=672a2364&is=6728d1e4&hm=cff986b017ce6c50d7fac63b981dd712259f291b6a5b2559c1c292f15d698c53&">
+  <img src="https://cdn.discordapp.com/attachments/1037246336669601812/1302994715712557056/image.png?ex=672a23e4&is=6728d264&hm=b408eda423a5eb0bd3ce4b61e341a233ecdc58fe33ba23d3026e788c4a3c80ef&">
 </div>
 
 ### 5. Quantidade de funcionários por Setor
