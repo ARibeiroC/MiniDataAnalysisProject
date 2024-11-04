@@ -13,5 +13,5 @@ Neste projeto utilizamos um banco de dados de uma empresa ficticia para poder ex
 ### Resolução do projeto
 
 <div>
-  <img src="https://cdn.discordapp.com/attachments/992111382956871722/1232185911853318144/Captura_de_tela_2024-04-23_012342.png?ex=66288a0e&is=6627388e&hm=33a7295c481397635837b558a1c8b74830cb377720796d384891112807ee464e&">
+  <img src="https://cdn.discordapp.com/attachments/1037246336669601812/1302979060879593514/image.png?ex=672a1550&is=6728c3d0&hm=03b58d4726d0e654998e6d81de3b0cb078e77987887dd7d24f85d2d0415928f8&">
 </div>
